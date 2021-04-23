@@ -1,0 +1,78 @@
+
+body{
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-size:35px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.contenedor{
+    width: 80%;
+    background-color: #0000008c;
+    padding: 0px;
+}
+
+.header-redes, .header-logo{
+    display: flex;
+    justify-content: center;    
+}
+
+.header-redes>img{
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    .header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .header-redes{
+        justify-content: flex-end;
+    }
+    .header-logo{
+        justify-content: flex-start;
+    }
+    .contenedor{
+        padding: 40px;
+    }
+}
+.cartas{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0000008c;
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.button{
+    padding: 10px;
+    background-color: #ff000086;
+    border-width: 0px;
+    box-shadow: 2px 2px 5px rgb(49, 49, 49);
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carta > img{
+    width: 80%;
+    height: auto;
+}
