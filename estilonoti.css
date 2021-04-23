@@ -1,0 +1,36 @@
+html{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	background-color: #ff0000;
+}
+
+body{
+	margin-bottom: 0%;
+	margin-top: 0%;
+    justify-content: center;
+	background-color: #0000008c;
+}
+
+.centrado {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.imagen{
+	display: flex;
+	justify-content: center;
+	margin: 3%;
+	
+}
+p{
+	color:whitesmoke;
+	margin: 2%;
+	display: flex;
+}
+.categoria{
+	color: darkgrey;
+	margin: 2%;
+	display: flex;
+}
